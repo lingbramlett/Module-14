@@ -82,13 +82,27 @@ function buildCharts(sample) {
       });
     }
     
-    // Don't forget to slice and reverse the input data appropriately
+      // Don't forget to slice and reverse the input data appropriately
+    let barTrace = {
+      x: sample_values.slice(0, 10).reverse(),
+      y: yticks,
+      text: otu_labels.slice(0, 10).reverse(),
+      type: "bar",
+      orientation: "h"
+    };
 
+    let barLayout = {
+      title: "Top 10 Bacteria Cultures Found",
+      xaxis: { title: "Number of Bacteria" },
+      margin: { t: 50, l: 100, r: 50, b: 50 }
+    };
 
     // Render the Bar Chart
-
+    Plotly.newPlot("bar", [barTrace], barLayout);
   });
 }
+
+
 
 // Function to run on page load
 function init() {
