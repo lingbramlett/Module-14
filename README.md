@@ -11,5 +11,5 @@ Additionally, the demographic information of the individual being sampled was di
 
 Dashboard displaying the sample ID, and view the summary of information 
 
-The JavaScript file for this dashboard creation is Module14.js
+The JavaScript file for this dashboard creation is Module_14.js
 
