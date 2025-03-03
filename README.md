@@ -11,5 +11,5 @@ Additionally, the demographic information of the individual being sampled was di
 
 Dashboard displaying the sample ID, and view the summary of information 
 
-The JavaScript file for this dashboard creation app.js is found in the "Resources" folder.
+The JavaScript file for this dashboard creation is Module14.js
 
